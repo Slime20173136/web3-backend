@@ -826,4 +826,13 @@ app.post("/oracle/eip712", async (req, res) => {
   }
 });
 
+<<<<<<< HEAD
+=======
+// ... all your existing code ...
+
+app.get("/", (req, res) => {
+  res.send("✅ Web3 Backend is running on Render!");
+});
+
+>>>>>>> f4c5a5410c2832258ae9323d0b0898f757316021
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
